@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    
+    height: 25vh;
+    width: 100%;
+    display: flex;
+
+}
+.box1{
+    width: 20%;
+    height: 96%;
+    display: flex;
+    justify-content: center;
+    margin: .2rem .4rem;
+    padding: .5%;
+    border: solid #2E0052;
+    border-radius: .4rem;
+}
+.image1{
+    /* height: 100%; */
+    width: 100%;
+    object-fit: contain;
+    
+}
+.box2, .box3, .box4, .box5{
+    width: 15%;
+    height: 95%;
+    margin: .2rem .4rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box2{
+    width: 25%;
+}
+.text{
+    padding: .5rem;
+}
+.text1{
+    font-weight: 600;
+}
+.text2{
+    color: #A2A2A2;
+}
+.options{
+    margin: .5rem;
+    width: 80%;
+}

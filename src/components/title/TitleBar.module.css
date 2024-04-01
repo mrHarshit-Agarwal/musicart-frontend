@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 10vh;
+    width: calc(100% - 2rem);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+}
+
+.logo {
+    margin-left: .5rem;
+    height: 90%;
+    object-fit: contain;
+}
+
+.name {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+.breadcrum{
+    margin-top:  .8rem;
+    margin-left: .5rem;
+}
+.button1{
+    margin-left: 70%;
+    height: 60%;
+    padding: 0 1rem;
+    background: #1D7000;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.img1{
+    
+    height: 60%;
+    margin-right: .2rem;
+    object-fit: contain;
+}

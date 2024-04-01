@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+.headerText{
+    margin-left: .5rem;
+    font-size: 2rem;
+    color: #2E0052;
+    
+
+}
+
+
+.box1{
+    width: 40%;
+    min-height: 40vh;
+    border: solid #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 80%;
+    padding: .5rem 0rem;
+    font-size: 1rem;
+}
+.input{
+    width: 80%;
+    margin: 0px 1rem;
+    height: 2rem;
+}
+.error{
+    color: red;
+    width: 80%;
+    margin: 0px 1rem;
+}
+.text1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.button{
+    width: 80%;
+    height: 2rem;
+    margin: .5rem 1rem;
+    color: white;
+    background-color: #2E0052;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box2{
+    width: 40%;
+    margin-top: 1rem;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box21{
+    width: 35%;
+    height: 0;
+    border: solid #D9D9D9;
+}
+.box22{
+    padding: 0 1rem;
+}
+.button2{
+    width: 40%;
+    color: black;
+    background-color: white;
+    border: solid #BDBDBD;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 6rem;
+    height: 1.5rem;
+    width: 100%;
+    color: white;
+    background-color: #2E0052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    height: 1rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+u{
+    cursor: pointer;
+}
+@media screen and (max-width: 599px) {
+    .main{
+        margin-bottom: 3rem;
+    }
+    .box1{
+        width: 80%;
+    }
+}

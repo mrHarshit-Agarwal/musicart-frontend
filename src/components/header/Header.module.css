@@ -1,0 +1,38 @@
+.main{
+    height: 3rem;
+    width: 100%;
+    background-color: #2E0052;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.left, .mid, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 10rem;
+}
+.mid{
+    width: 20rem;
+}
+.right{
+    width: 10rem;
+}
+.icon1{
+    height: 50%;
+    object-fit: contain;
+    margin-right: .5rem;
+}
+.bar{
+    margin: 0 .5rem;
+}
+.route{
+    cursor: pointer;
+}
+
+.mbox1{
+    height: 3rem;
+    background-color: #2E0052;
+}

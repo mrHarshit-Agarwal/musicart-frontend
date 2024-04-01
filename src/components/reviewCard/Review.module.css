@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    min-width: 60%;
+    height: 100%;
+    margin: 0 .5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.image1{
+    width: 95%;
+    height: 70%;
+    object-fit: contain;
+    border: solid #2E0052;
+    border-radius: .4rem;
+}
+.text1{
+    width: 95%;
+    padding: .2rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.text2{
+    width: 95%;
+    padding: .2rem 0;
+    color: #797979;
+    font-size: .8rem;
+}

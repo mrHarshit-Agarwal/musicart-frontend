@@ -1,0 +1,42 @@
+.main{
+    min-height: 1.5rem;
+    min-width: 9rem;
+    margin-right: 1rem;
+    z-index: 1;
+    
+}
+.top{
+    height: 1.7rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlight{
+    border: 2px solid blue;
+}
+
+.icon{
+    height: .4rem;
+    margin-left: .5rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+.bottom{
+    background-color: #D9D9D9;
+    width: 92%;
+    margin: 1% 5%;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    margin: .2rem .4rem;
+    
+}
+.itemHightlight{
+    background-color: lightblue;
+}

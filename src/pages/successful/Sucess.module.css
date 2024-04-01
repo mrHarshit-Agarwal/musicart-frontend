@@ -1,0 +1,52 @@
+
+.main{
+    min-height: 100vh ;
+}
+.box1{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 23px 2px rgba(0, 0, 0, 0.11);
+}
+.image1{
+    height: 25%;
+    object-fit: contain;
+    margin: .5rem;
+}
+.text1{
+    height: 2rem;
+    margin: .5rem;
+    font-weight: 600;
+}
+.text2{
+    height: 2rem;
+    margin: .5rem;
+    color: #969696;
+}
+.text3{
+    height: 2rem;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    border-radius: .4rem;
+    color: white;
+    background-color: #2E0052;
+}
+@media screen and (max-width: 599px) {
+    .box2{
+        width: 80%;
+        
+    }
+}
